@@ -37,7 +37,7 @@ shinyUI(fluidPage(theme = shinytheme("simplex"),
 
 
 
-#review_call_model, datalar, answer fonksiyonu, write fonksiyonu, to.plain fonksiyonu Environment'te tanımlı olmalıdır.
+
 
 library(shiny)
 library(shinythemes)
