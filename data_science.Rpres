@@ -1,0 +1,50 @@
+
+Coursera Data Science Capstone Final Project
+========================================================
+author:Ozge Tugrul Sonmez 
+date: 02/20/2021
+autosize: true
+font-family: 'Helvetica'
+
+
+
+Introduction and Data Preparation
+========================================================
+The goal of this exercise is to create a product to highlight the prediction algorithm that you have built and to provide an interface that can be accessed by others. 
+
+In order to prepare data for the prediction model:
+- Blogs, Twitter and News data are combined to obtain main data source.
+- Character "I" is substituted by character "i" since lower() function turns the upper case letter "I" to lower case letter ("i").
+- All of the letters are converted to lowercase. All punctuation, numbers,symbols,urls are removed.
+- N grams (unigrams, bigrams,trigrams and quadgrams) are obtained in order of term frequency and data frames are saved.
+
+Next Word Prediction Model
+========================================================
+- Input data is cleaned. Character "I" is substituded by "i". Letters are converted to lowercase,white spaces are trimmed. Numbers, punctuation are removed.
+- Quadgram, trigram and bigram data frames are obtained and terms with frequency higher than 50 are extracted.
+- If the number of words entered is at least 3, then respectively quadgram, trigram, bigram and unigram frequency is used to predict next word. The most frequent 3 words are shown on the screen.
+- If the number of words entered is 2, then respectively trigram, bigram and unigram frequency is used to predict next word.The most frequent 3 words are shown on the screen.
+- If only one word is entered, then respectively bigram and unigram frequency is used to predict next word.The most frequent 3 words are shown on the screen.
+- If nothing is entered then unigram frequency is used to predict next word.The most frequent 3 words are shown on the screen.
+
+```{r}
+
+```
+
+Shiny Application
+========================================================
+
+![alt text](shiny_app.png)
+
+
+Data Science Capstone Project Links
+========================================================
+
+Shiny Application Link:
+
+https://ozgetugrulsonmez.shinyapps.io/Swiftkey/
+
+Github Repo Link:
+
+https://github.com/oztugrul/Data-Science-Capstone-Project
+ 
