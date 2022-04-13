@@ -2,6 +2,7 @@
 Swiftkey Next Word Prediction
 
 **https://rpubs.com/Ozge_Tugrul_Sonmez/728652**
+
 **https://rpubs.com/Ozge_Tugrul_Sonmez/720932**
 
 Algorithm:
